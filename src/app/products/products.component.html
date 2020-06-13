@@ -1,0 +1,39 @@
+<div class="row">
+  <div class="container-fluid">
+    <span class="pull-right cart"><strong><i class="fa fa-shopping-cart"></i>Cart: {{cart}} </strong></span>
+  </div>
+</div>
+<div class="card-container">
+  <div class="productBox">
+  <div class="productBox1">
+    <a data-href="//aliexpress.ru/item/32993617074.html?gps-id=8041884" CLASS="productLinkImage">
+      <img src="//ae01.alicdn.com/kf/H8c08e2db472c4e94b7f7d950b6cbab457.jpg_350x350.jpg" source="[object Object]" placeholder="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" compresssuffix="Q75,Q50" defaultheight="750rem"  style="display: block; max-width: 256px; max-height: 256px; cursor: pointer;">
+    </a>
+  </div>
+  <div data-href="//aliexpress.ru/item/32993617074.html?gps-id=8041884" title="Брендовый мини-проектор Everycom H96 Max, DLP проектор с поддержкой 4K, Wi-Fi, Android, голосовое управление, смарт-проектор для домашнего кинотеатра" style="position: relative; box-sizing: border-box; display: inline-block; flex-direction: column; align-content: flex-start; flex-shrink: 0; width: 100%; height: 36px; overflow: hidden; margin-top: 8px;">
+    <span numberoflines="2" style="position: relative; box-sizing: border-box; flex-direction: column; align-content: flex-start; flex-shrink: 0; margin-top: 0px; margin-bottom: 0px; font-size: 13px; line-height: 18px; width: 256px; height: 36px; color: rgb(0, 0, 0); overflow: hidden; text-overflow: ellipsis; cursor: pointer; display: -webkit-box; float: left; -webkit-box-orient: vertical; -webkit-line-clamp: 2; text-decoration: none;">
+      Product Name
+    </span>
+  </div>
+  <div style="position: relative; box-sizing: border-box; display: flex; flex-direction: row; align-content: flex-start; flex-shrink: 0; height: 24px; align-items: center;">
+    <img src="//ae01.alicdn.com/kf/HTB1B5EkcmSD3KVjSZFK76210VXam.png" source="[object Object]" placeholder="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" compresssuffix="Q75,Q50" defaultheight="750rem" style="display: block; height: 14px;">
+    <span numberoflines="1" style="position: relative; box-sizing: border-box; flex-direction: column; align-content: flex-start; flex-shrink: 0; margin-top: 0px; margin-bottom: 0px; font-weight: 700; font-size: 18px; line-height: 24px; overflow: hidden; text-overflow: ellipsis; color: rgb(0, 0, 0); margin-left: 4px; white-space: nowrap;">
+      € 243,43
+  </span>
+  </div>
+  <div style="position: relative; box-sizing: border-box; display: flex; flex-direction: row; place-content: flex-start space-between; flex-shrink: 0; height: 18px; align-items: center;"><div style="position: relative; box-sizing: border-box; display: flex; flex-direction: row; align-content: flex-start; flex-shrink: 0;">
+    <span numberoflines="1" style="position: relative; box-sizing: border-box; flex-direction: column; align-content: flex-start; flex-shrink: 0; margin-top: 0px; margin-bottom: 0px; font-size: 12px; line-height: 18px; color: rgb(153, 153, 153); text-decoration: line-through; margin-right: 4px; white-space: nowrap; overflow: hidden;">
+      € 352,80
+    </span>
+      <div style="position: relative; box-sizing: border-box; display: flex; flex-direction: column; align-content: flex-start; flex-shrink: 0; height: 16px; background: rgb(255, 241, 241); line-height: 16px; padding: 0rem 4px; border-radius: 2px;">
+        <span numberoflines="1" style="position: relative; box-sizing: border-box; flex-direction: column; align-content: flex-start; flex-shrink: 0; margin-top: 0px; margin-bottom: 0px; font-size: 12px; color: rgb(255, 71, 71); white-space: nowrap; overflow: hidden;">
+          -31%
+        </span>
+      </div>
+  </div>
+    <span style="position: relative; box-sizing: border-box; flex-direction: column; align-content: flex-start; flex-shrink: 0; margin-top: 0px; margin-bottom: 0px; font-size: 12px; color: rgb(51, 51, 51); line-height: 18px;">
+     <span class="cart btn btn-primary" (click)="addToCart()">+Cart</span><span [class]="cart==0?'disable':'cart btn btn-danger'" (click)="removeFromCart()">-Cart</span>
+    </span>
+  </div>
+</div>
+</div>
